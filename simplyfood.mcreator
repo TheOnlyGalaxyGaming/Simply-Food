@@ -1,10 +1,92 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Cherries",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherries"
+    },
+    {
+      "name": "SimplyFoods",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "simply_foods"
+    },
+    {
+      "name": "SimplyFood",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "simply_food"
+    },
+    {
+      "name": "Strawberry",
+      "type": "food",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "strawberry"
+    },
+    {
+      "name": "Banana",
+      "type": "food",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "banana"
+    },
+    {
+      "name": "BananaPeel",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "banana_peel"
+    },
+    {
+      "name": "Grapes",
+      "type": "food",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grapes"
+    },
+    {
+      "name": "Orange",
+      "type": "food",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.simplyfood.banana_peel": "Banana Peel",
+      "item.simplyfood.banana": "Banana",
+      "item.simplyfood.orange": "Orange",
+      "item.simplyfood.cherries": "Cherries",
+      "itemGroup.tabsimply_food": "Simply Food",
+      "item.simplyfood.simply_foods": "Simply Foods",
+      "item.simplyfood.strawberry": "Strawberry",
+      "item.simplyfood.grapes": "Grapes"
+    }
   },
   "foldersRoot": {
     "name": "~",
