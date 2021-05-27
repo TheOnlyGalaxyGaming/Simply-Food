@@ -28,7 +28,7 @@
       "ooh sparkly"
     ],
     "hasGlow": true,
-    "guiBoundTo": "<NONE>",
+    "guiBoundTo": "SimplyFoodGUI",
     "inventorySize": 9,
     "inventoryStackSize": 64
   }

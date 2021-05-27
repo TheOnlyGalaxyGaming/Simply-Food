@@ -106,24 +106,6 @@
       }
     },
     {
-      "name": "CherryLeaves",
-      "type": "block",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_leaves"
-    },
-    {
-      "name": "CherryLeavesLT",
-      "type": "loottable",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cherry_leaves_lt"
-    },
-    {
       "name": "CherryLeavesTag",
       "type": "tag",
       "sortid": 12,
@@ -149,6 +131,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cherry_bush"
+    },
+    {
+      "name": "SimplyFoodGUI",
+      "type": "gui",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "simply_food_gui"
     }
   ],
   "variable_elements": [],
@@ -162,7 +153,6 @@
       "biome.simplyfood.cherry_biome": "Cherry Biome",
       "item.simplyfood.cherries": "Cherries",
       "itemGroup.tabsimply_food": "Simply Food",
-      "block.simplyfood.cherry_leaves": "Cherry Leaves",
       "item.simplyfood.simply_foods": "Simply Food",
       "item.simplyfood.strawberry": "Strawberry",
       "item.simplyfood.grapes": "Grapes"

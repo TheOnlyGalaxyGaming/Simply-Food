@@ -78,6 +78,7 @@ public class CherryBiomeBiome extends SimplyfoodModElements.ModElement {
 								.func_242731_b(1));
 				DefaultBiomeFeatures.withCavesAndCanyons(biomeGenerationSettings);
 				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
+				DefaultBiomeFeatures.withExtraGoldOre(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.PLAINS).depth(0.1f).scale(0.2f)
 						.temperature(0.7f).downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
@@ -89,6 +90,6 @@ public class CherryBiomeBiome extends SimplyfoodModElements.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		BiomeManager.addBiome(BiomeManager.BiomeType.WARM,
-				new BiomeManager.BiomeEntry(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), 10));
+				new BiomeManager.BiomeEntry(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), 5));
 	}
 }

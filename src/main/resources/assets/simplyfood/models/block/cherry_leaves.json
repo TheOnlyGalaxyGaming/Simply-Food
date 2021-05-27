@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "simplyfood:blocks/cherry_leaves",
-    "particle": "simplyfood:blocks/cherry_leaves"
-  }
-}
