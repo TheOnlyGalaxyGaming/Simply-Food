@@ -140,12 +140,22 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cherry_biome"
+    },
+    {
+      "name": "CherryBush",
+      "type": "plant",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_bush"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.simplyfood.cherry_bush": "Cherry Bush",
       "item.simplyfood.banana_peel": "Banana Peel",
       "item.simplyfood.banana": "Banana",
       "item.simplyfood.orange": "Orange",

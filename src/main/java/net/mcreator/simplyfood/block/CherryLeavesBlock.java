@@ -29,8 +29,8 @@ public class CherryLeavesBlock extends SimplyfoodModElements.ModElement {
 	}
 	public static class CustomBlock extends LeavesBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
-					.harvestTool(ToolType.HOE).setRequiresTool().notSolid());
+			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.5f, 3f).setLightLevel(s -> 0)
+					.harvestLevel(1).harvestTool(ToolType.HOE).setRequiresTool().notSolid());
 			setRegistryName("cherry_leaves");
 		}
 	}
